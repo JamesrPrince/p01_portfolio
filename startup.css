@@ -18,8 +18,8 @@ audio,
 canvas,
 video {
 	display: inline-block;
-	*display: inline;
-	*zoom: 1;
+	/* display: inline; */
+	/* zoom: 1; */
 }
 audio:not([controls]) {
 	display: none;
@@ -67,7 +67,7 @@ textarea {
 }
 button,
 input {
-	*overflow: visible;
+	/* overflow: visible; */
 	line-height: normal;
 }
 button::-moz-focus-inner,
@@ -80,7 +80,7 @@ input[type='button'],
 input[type='reset'],
 input[type='submit'] {
 	cursor: pointer;
-	-webkit-appearance: button;
+	/* -webkit-appearance: button; */
 }
 body {
 	margin: 0;
@@ -126,7 +126,7 @@ input[type='search'] {
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
-	-webkit-appearance: textfield;
+	/* -webkit-appearance: textfield; */
 }
 input[type='search']::-webkit-search-decoration,
 input[type='search']::-webkit-search-cancel-button {
@@ -139,8 +139,8 @@ textarea {
 label {
 	cursor: pointer;
 }
-input:valid,
-textarea:valid {
+/* input:valid, */
+/* textarea:valid { */
 }
 input:invalid,
 textarea:invalid {
@@ -165,7 +165,7 @@ textarea {
 	margin: 0;
 	padding: 0;
 	vertical-align: middle;
-	*vertical-align: middle;
+	/* vertical-align: middle; */
 }
 button,
 .btn {
@@ -280,7 +280,7 @@ h6 {
 	background-repeat: no-repeat;
 }
 [class^='icon-']:last-child {
-	*margin-left: 0;
+	/* margin-left: 0; */
 }
 
 /* Center Align container */
@@ -319,7 +319,7 @@ Author: Nissan Hanina
 
 .row {
 	margin-left: -20px;
-	*zoom: 1;
+	/* zoom: 1; */
 }
 .row:before,
 .row:after {
@@ -416,7 +416,7 @@ Author: Nissan Hanina
 }
 .row-fluid {
 	width: 100%;
-	*zoom: 1;
+	/* zoom: 1; */
 }
 .row-fluid:before,
 .row-fluid:after {
@@ -436,63 +436,63 @@ Author: Nissan Hanina
 	box-sizing: border-box;
 	float: left;
 	margin-left: 2.127659574%;
-	*margin-left: 2.0744680846382977%;
+	margin-left: 2.0744680846382977%;
 }
 .row-fluid [class*='que']:first-child {
 	margin-left: 0;
 }
 .row-fluid .que12 {
 	width: 99.99999998999999%;
-	*width: 99.94680850063828%;
+	/*width: 99.94680850063828%;*/
 }
 .row-fluid .que11 {
 	width: 91.489361693%;
-	*width: 91.4361702036383%;
+	/*width: 91.4361702036383%;*/
 }
 .row-fluid .que10 {
 	width: 82.97872339599999%;
-	*width: 82.92553190663828%;
+	/*width: 82.92553190663828%;*/
 }
 .row-fluid .que9 {
 	width: 74.468085099%;
-	*width: 74.4148936096383%;
+	/*width: 74.4148936096383%;*/
 }
 .row-fluid .que8 {
 	width: 65.95744680199999%;
-	*width: 65.90425531263828%;
+	/*width: 65.90425531263828%;*/
 }
 .row-fluid .que7 {
 	width: 57.446808505%;
-	*width: 57.3936170156383%;
+	/*width: 57.3936170156383%;*/
 }
 .row-fluid .que6 {
 	width: 48.93617020799999%;
-	*width: 48.88297871863829%;
+	/* width: 48.88297871863829%; */
 }
 .row-fluid .que5 {
 	width: 40.425531911%;
-	*width: 40.3723404216383%;
+	/* width: 40.3723404216383%; */
 }
 .row-fluid .que4 {
 	width: 31.914893614%;
-	*width: 31.8617021246383%;
+	/* width: 31.8617021246383%; */
 }
 .row-fluid .que3 {
 	width: 23.404255317%;
-	*width: 23.3510638276383%;
+	/* width: 23.3510638276383%; */
 }
 .row-fluid .que2 {
 	width: 14.89361702%;
-	*width: 14.8404255306383%;
+	/* width: 14.8404255306383%; */
 }
 .row-fluid .que1 {
 	width: 6.382978723%;
-	*width: 6.329787233638298%;
+	/* width: 6.329787233638298%; */
 }
 .container {
 	margin-right: auto;
 	margin-left: auto;
-	*zoom: 1;
+	/*zoom: 1;*/
 }
 .container:before,
 .container:after {
@@ -505,7 +505,7 @@ Author: Nissan Hanina
 .container-fluid {
 	padding-right: 20px;
 	padding-left: 20px;
-	*zoom: 1;
+	/* zoom: 1; */
 }
 .container-fluid:before,
 .container-fluid:after {
@@ -518,7 +518,7 @@ Author: Nissan Hanina
 
 @media (max-width: 480px) {
 	.nav-collapse {
-		-webkit-transform: translate3d(0, 0, 0);
+		/* -webkit-transform: translate3d(0, 0, 0); */
 	}
 	.page-header h1 small {
 		display: block;
@@ -628,7 +628,7 @@ Author: Nissan Hanina
 @media (min-width: 768px) and (max-width: 979px) {
 	.row {
 		margin-left: -20px;
-		*zoom: 1;
+		/* zoom: 1; */
 	}
 	.row:before,
 	.row:after {
@@ -741,58 +741,58 @@ Author: Nissan Hanina
 		box-sizing: border-box;
 		float: left;
 		margin-left: 2.762430939%;
-		*margin-left: 2.709239449638298%;
+		/*margin-left: 2.709239449638298%; */
 	}
 	.row-fluid [class*='que']:first-child {
 		margin-left: 0;
 	}
 	.row-fluid .que12 {
 		width: 99.999999993%;
-		*width: 99.9468085036383%;
+		/*width: 99.9468085036383%; */
 	}
 	.row-fluid .que11 {
 		width: 91.436464082%;
-		*width: 91.38327259263829%;
+		/*width: 91.38327259263829%; */
 	}
 	.row-fluid .que10 {
 		width: 82.87292817100001%;
-		*width: 82.8197366816383%;
+		/* width: 82.8197366816383%; */
 	}
 	.row-fluid .que9 {
 		width: 74.30939226%;
-		*width: 74.25620077063829%;
+		/*width: 74.25620077063829%; */
 	}
 	.row-fluid .que8 {
 		width: 65.74585634900001%;
-		*width: 65.6926648596383%;
+		/* width: 65.6926648596383%; */
 	}
 	.row-fluid .que7 {
 		width: 57.182320438000005%;
-		*width: 57.129128948638304%;
+		/* width: 57.129128948638304%; */
 	}
 	.row-fluid .que6 {
 		width: 48.618784527%;
-		*width: 48.5655930376383%;
+		/* width: 48.5655930376383%; */
 	}
 	.row-fluid .que5 {
 		width: 40.055248616%;
-		*width: 40.0020571266383%;
+		/* width: 40.0020571266383%; */
 	}
 	.row-fluid .que4 {
 		width: 31.491712705%;
-		*width: 31.4385212156383%;
+		/* width: 31.4385212156383%; */
 	}
 	.row-fluid .que3 {
 		width: 22.928176794%;
-		*width: 22.874985304638297%;
+		/* width: 22.874985304638297%; */
 	}
 	.row-fluid .que2 {
 		width: 14.364640883%;
-		*width: 14.311449393638298%;
+		/* width: 14.311449393638298%; */
 	}
 	.row-fluid .que1 {
 		width: 5.801104972%;
-		*width: 5.747913482638298%;
+		/* width: 5.747913482638298%; */
 	}
 	input,
 	textarea,
@@ -863,7 +863,7 @@ Author: Nissan Hanina
 @media (min-width: 1200px) {
 	.row {
 		margin-left: -30px;
-		*zoom: 1;
+		/* zoom: 1; */
 	}
 	.row:before,
 	.row:after {
@@ -956,7 +956,7 @@ Author: Nissan Hanina
 	}
 	.row-fluid {
 		width: 100%;
-		*zoom: 1;
+		/* zoom: 1; */
 	}
 	.row-fluid:before,
 	.row-fluid:after {
@@ -976,58 +976,58 @@ Author: Nissan Hanina
 		box-sizing: border-box;
 		float: left;
 		margin-left: 2.564102564%;
-		*margin-left: 2.510911074638298%;
+		/* margin-left: 2.510911074638298%; */
 	}
 	.row-fluid [class*='que']:first-child {
 		margin-left: 0;
 	}
 	.row-fluid .que12 {
 		width: 100%;
-		*width: 99.94680851063829%;
+		/* width: 99.94680851063829%; */
 	}
 	.row-fluid .que11 {
 		width: 91.45299145300001%;
-		*width: 91.3997999636383%;
+		/* width: 91.3997999636383%; */
 	}
 	.row-fluid .que10 {
 		width: 82.905982906%;
-		*width: 82.8527914166383%;
+		/* width: 82.8527914166383%; */
 	}
 	.row-fluid .que9 {
 		width: 74.358974359%;
-		*width: 74.30578286963829%;
+		/* width: 74.30578286963829%; */
 	}
 	.row-fluid .que8 {
 		width: 65.81196581200001%;
-		*width: 65.7587743226383%;
+		/* width: 65.7587743226383%; */
 	}
 	.row-fluid .que7 {
 		width: 57.264957265%;
-		*width: 57.2117657756383%;
+		/* width: 57.2117657756383%; */
 	}
 	.row-fluid .que6 {
 		width: 48.717948718%;
-		*width: 48.6647572286383%;
+		/* width: 48.6647572286383%; */
 	}
 	.row-fluid .que5 {
 		width: 40.170940171000005%;
-		*width: 40.117748681638304%;
+		/* width: 40.117748681638304%; */
 	}
 	.row-fluid .que4 {
 		width: 31.623931624%;
-		*width: 31.5707401346383%;
+		/* width: 31.5707401346383%; */
 	}
 	.row-fluid .que3 {
 		width: 23.076923077%;
-		*width: 23.0237315876383%;
+		/* width: 23.0237315876383%; */
 	}
 	.row-fluid .que2 {
 		width: 14.529914530000001%;
-		*width: 14.4767230406383%;
+		/* width: 14.4767230406383%; */
 	}
 	.row-fluid .que1 {
 		width: 5.982905983%;
-		*width: 5.929714493638298%;
+		/* width: 5.929714493638298%; */
 	}
 	input,
 	textarea,
@@ -1121,7 +1121,7 @@ Author: Nissan Hanina
 	background-repeat: no-repeat;
 	text-align: left;
 	direction: ltr;
-	*line-height: 0;
+	/* line-height: 0; */
 }
 .ir br {
 	display: none;
@@ -1160,6 +1160,5 @@ Author: Nissan Hanina
 .clearfix:after {
 	clear: both;
 }
-.clearfix {
-	*zoom: 1;
-}
+/* .clearfix {
+	/* zoom: 1; */
