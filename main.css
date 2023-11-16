@@ -16,6 +16,7 @@ body {
 .logo img {
 	width: 50px; /* Adjust the width as needed */
 	height: auto;
+	border-radius: 50%;
 }
 
 .nav-links {
@@ -38,11 +39,25 @@ body {
 
 .hero {
 	background-image: url('hero-background.jpg'); /* Replace with your actual image */
+	display: flex;
 	background-size: cover;
 	background-position: center;
-	color: white;
-	text-align: center;
+	color: rgb(65, 59, 59);
+	/* text-align: center; */
 	padding: 100px 20px;
+}
+
+.image-container {
+	align-items: center;
+}
+
+.hero-img {
+	border: #333;
+	border-radius: 100%;
+	border-style: solid;
+	max-width: 400px;
+	max-height: fit-content;
+	/* align-items: flex-end; */
 }
 
 .hero h1 {

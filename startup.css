@@ -141,7 +141,7 @@ label {
 }
 /* input:valid, */
 /* textarea:valid { */
-}
+
 input:invalid,
 textarea:invalid {
 	background-color: #f0dddd;
@@ -273,13 +273,13 @@ h6 {
 	display: inline-block;
 	width: 14px;
 	height: 14px;
-	*margin-right: 0.3em;
+	margin-right: 0.3em;
 	line-height: 14px;
 	vertical-align: text-top;
 	background-image: url('../css/img/glyphs.png');
 	background-repeat: no-repeat;
 }
-[class^='icon-']:last-child {
+/* [class^='icon-']:last-child { */
 	/* margin-left: 0; */
 }
 
@@ -721,7 +721,7 @@ Author: Nissan Hanina
 	}
 	.row-fluid {
 		width: 100%;
-		*zoom: 1;
+		/* zoom: 1; */
 	}
 	.row-fluid:before,
 	.row-fluid:after {
