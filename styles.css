@@ -1,169 +1,186 @@
-/* Add styles for the body */
-body {
-	font-family: 'Arial', sans-serif;
-	line-height: 1.6;
-	margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	scroll-behavior: smooth;
 	padding: 0;
-}
-
-/* Add styles for the header section */
-header {
-	text-align: center;
-	background-color: #f9f9f9;
-	padding: 2em;
-}
-
-header h1 {
 	margin: 0;
-	color: #333;
 }
 
-header p {
-	color: #555;
+:root {
+	--bg-color: #031825;
+	--second-bg-color: #f4bf96;
+	--text-color: #ededed;
+	--main-color: #5acece;
 }
 
-/* Add styles for the logo and navigation bar */
-nav {
-	background-color: #333;
+html {
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+
+body {
+	background: var(--bg-color);
+	color: var(--text-color);
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 2rem 9%;
+	background: transparent;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1em;
+	z-index: 100;
 }
 
-nav img {
-	max-height: 40px; /* Adjust as needed */
+.logo {
+	font-size: 2.5rem;
+	color: var(--text-color);
+	font-weight: 600;
 }
 
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+.navbar a {
+	font-size: 1.7rem;
+	color: var(--text-color);
+	font-weight: 500;
+	margin-left: 3.5rem;
+	transition: 3s;
+}
+
+.navbar a:hover,
+.navbar a:active {
+	color: var(--main-color);
+}
+
+#menu-icon {
+	font-size: 3.6rem;
+	color: var(--text-color);
+	cursor: pointer;
+	display: none;
+}
+
+section {
+	min-height: 100vh;
+	padding: 10rem 9% 2rem;
+}
+
+.home {
 	display: flex;
-	justify-content: flex-end; /* Align links to the right */
 	align-items: center;
+	padding: 0 9%;
 }
 
-nav li {
-	margin-left: 20px;
+.home-content {
+	max-width: 60rem;
 }
 
-nav a {
-	text-decoration: none;
-	color: #fff;
-	font-weight: bold;
+.home-content h1 {
+	font-size: 5.6rem;
+	font-weight: 700;
+	line-height: 1.3;
 }
 
-/* Add styles for the hero section */
-#hero {
-	background-image: url(https://unsplash.it/1280/800);
-	width: 100%;
-	height: 100%;
+.home-content .text-animate {
+	position: relative;
+	width: 32.8rem;
 }
 
-/* Add styles for the about section */
-#about {
-	background-color: #f9f9f9;
-	padding: 2em;
+.home-content .text-animate h3 {
+	font-size: 3.2rem;
+	font-weight: 700;
+	color: transparent;
+	-webkit-text-stroke: 0.7px var(--main-color);
 }
 
-/* Add styles for the skills section */
-#skills {
-	background-color: #fff;
-	padding: 2em;
+.home-content p {
+	font-size: 1.6rem;
+	margin: 2rem 0 4rem;
 }
 
-#skills h3 {
-	color: #333;
-}
-
-/* Add styles for the projects section */
-#projects {
-	background-color: #f9f9f9;
-	padding: 2em;
-}
-
-.project {
-	margin-bottom: 2em;
-	padding: 1.5em;
-	border: 1px solid #ddd;
-	border-radius: 5px;
-}
-
-.project h3 {
-	color: #333;
-}
-
-/* Add styles for the services section */
-#services {
-	background-color: #fff;
-	padding: 2em;
-}
-
-.service {
-	margin-bottom: 2em;
-	padding: 1.5em;
-	border: 1px solid #ddd;
-	border-radius: 5px;
-}
-
-.service h3 {
-	color: #333;
-}
-
-/* Add styles for the contact section */
-#contact {
-	background-color: #f9f9f9;
-	padding: 2em;
-}
-
-form {
+.btn-box {
+	position: relative;
 	display: flex;
-	flex-direction: column;
-	max-width: 300px;
-	margin: auto;
+	justify-content: space-between;
+	width: 34.5rem;
+	height: 5rem;
 }
 
-label {
-	margin-bottom: 0.5em;
+.btn-box .btn {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 15rem;
+	height: 100%;
+	background-color: var(--main-color);
+	border: 0.2rem solid var(--main-color);
+	border-radius: 0.8rem;
+	font-size: 1.8rem;
+	font-weight: 600;
+	letter-spacing: 0.1rem;
+	color: var(--bg-color);
+	z-index: 1;
+	overflow: hidden;
+	transition: 0.5s;
 }
 
-input {
-	padding: 0.5em;
-	margin-bottom: 1em;
-	border: 1px solid #333;
-	border-radius: 5px;
+.btn-box .btn:hover {
+	color: var(--main-color);
 }
 
-/* Add styles for the footer */
-footer {
-	background-color: #333;
-	color: #fff;
-	text-align: center;
-	padding: 1em 0;
+.btn-box .btn:nth-child(2) {
+	background: transparent;
+	color: var(--main-color);
 }
 
-/* Add media query for responsiveness */
-@media only screen and (max-width: 600px) {
-	nav ul {
-		text-align: center;
-	}
+.btn-box .btn:nth-child(2):hover {
+	color: var(--bg-color);
+}
 
-	nav li {
-		display: block;
-		margin: 10px 0;
-	}
+.btn-box .btn:nth-child(2)::before {
+	background: var(--main-color);
+}
 
-	#hero img {
-		max-width: 80%;
-		margin: 0 auto;
-	}
+.btn-box .btn::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: var(--bg-color);
+	z-index: -1;
+	transition: 0.5s;
+}
 
-	#about,
-	#skills,
-	#projects,
-	#services,
-	#contact {
-		padding: 1em;
-	}
+.btn-box .btn:hover:before {
+	width: 100%;
+}
+
+.home-sci {
+	position: absolute;
+	bottom: 4rem;
+	width: 170px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.home-sci a {
+	position: relative;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	background: transparent;
+	border: 0.2rem solid var(--main-color);
+	border-radius: 50%;
 }

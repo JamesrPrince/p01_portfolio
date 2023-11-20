@@ -4,37 +4,59 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="styles.css" />
-		<title>Your Name - Portfolio</title>
+		<title>Ekko - Portfolio</title>
+		<!-- Box icons -->
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
-		<nav>
-			<img src="http://unsplash.it/200/100" alt="Logo" />
-			<ul>
-				<li><a href="#about">About</a></li>
-				<li><a href="#skills">Skills</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#services">Services</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-
-		<header>
-			<h1>Your Name</h1>
-			<p>Passionate Web Developer</p>
+		<!-- Header Design-->
+		<header class="header">
+			<a href="#" class="logo">Ekko.</a>
+			<div class="bx bx-menu" id="menu-icon"></div>
+			<nav class="navbar">
+				<a href="#home" class="active">Home</a>
+				<a href="#about">About</a>
+				<a href="#skills">Skills</a>
+				<a href="#projects">Projects</a>
+				<a href="#services">Services</a>
+				<a href="#contact">Contact</a>
+			</nav>
 		</header>
+		<!-- Header Design-->
 
-		<section id="hero">
-			<img src="path/to/your/image.jpg" alt="Hero Image" />
-			<p>
-				Welcome to my portfolio! I'm Your Name, a dedicated web
-				developer with a strong passion for creating innovative and
-				user-friendly web applications. Explore my skills and projects
-				below, and let's build something amazing together.
-			</p>
-			<a href="#contact" class="cta-button">Get In Touch</a>
+		<!-- Home Section Design-->
+		<section class="home" id="home">
+			<div class="home-content">
+				<h1>Hi, I'm <span>James Prince</span></h1>
+				<div class="text-animate">
+					<h3>Frontend Developer</h3>
+				</div>
+				<p>
+					Welcome to my portfolio! I'm a dedicated web developer with
+					a strong passion for creating innovative and user-friendly
+					web applications. Explore my skills and projects below, and
+					let's build something amazing together.
+				</p>
+				<div class="btn-box">
+					<a href="#" class="btn">Hire Me</a>
+					<a href="#" class="btn">Let's Talk</a>
+				</div>
+			</div>
+
+			<div class="home-sci">
+				<a href="#"><i class="bx bxl-facebook"></i></a>
+				<a href="#"><i class="bx bxl-twitter"></i></a>
+				<a href="#"><i class="bx bxl-linkedin"></i></a>
+			</div>
 		</section>
 
-		<section id="about">
+		<!-- <img src="path/to/your/image.jpg" alt="Hero Image" />
+		<a href="#contact" class="cta-button">Get In Touch</a> -->
+
+		<!-- <section id="about">
 			<h2>About Me</h2>
 			<p>
 				Hello! I'm Your Name, a web developer based in Lusaka, Zambia.
@@ -125,9 +147,9 @@
 					Integration**, **Dynamic Data Display**, **Location-based
 					Weather**.
 				</p>
-			</div>
-			<!-- Add more projects as needed -->
-		</section>
+			</div> -->
+		<!-- Add more projects as needed -->
+		<!-- </section>
 
 		<section id="services">
 			<h2>Services</h2>
@@ -140,8 +162,8 @@
 				</p>
 			</div>
 			<div class="service">
-				<h3>UI/UX Design</h3>
-				<p>
+				<h3>UI/UX Design</h3> -->
+		<!-- <p>
 					Creating visually appealing and user-friendly interfaces is
 					my expertise. I focus on delivering seamless and enjoyable
 					user experiences for your digital products.
@@ -165,7 +187,7 @@
 				collaborate, or just want to say hello, feel free to reach out.
 			</p>
 			<!-- You can embed a map here using a service like Google Maps -->
-			<form>
+		<!-- <form>
 				<label for="name">Name:</label>
 				<input type="text" id="name" name="name" required />
 
@@ -174,11 +196,11 @@
 
 				<input type="submit" value="Submit" />
 			</form>
-		</section>
+		</section> -->
 
-		<footer>
+		<!-- <footer>
 			<p>&copy; 2023 Your Name. All rights reserved.</p>
-		</footer>
+		</footer> -->
 
 		<script src="script.js"></script>
 	</body>
