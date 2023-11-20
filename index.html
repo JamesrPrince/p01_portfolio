@@ -3,94 +3,183 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Ekko</title>
-		<link rel="stylesheet" href="main.css" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>Your Name - Portfolio</title>
 	</head>
 	<body>
-		<!-- Navbar section -->
-		<div class="navbar">
-			<div class="logo">
-				<!-- Your logo image goes here -->
-				<img src="/images/ekko01.jpg" alt="Logo" />
-			</div>
-			<div class="nav-links">
-				<a href="#home">Home</a>
-				<a href="#about">About Me</a>
-				<a href="#services">Services</a>
-				<a href="#projects">Projects</a>
-				<a href="#testimonials">Testimonials</a>
-				<a href="#contact">Contact</a>
-				<a href="#download-cv">Download CV</a>
-			</div>
-		</div>
-		<!-- Navbar section -->
+		<nav>
+			<img src="http://unsplash.it/200/100" alt="Logo" />
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
 
-		<!-- Hero section -->
-		<div class="hero">
-			<h1>Welcome to [Your Website Name]</h1>
+		<header>
+			<h1>Your Name</h1>
+			<p>Passionate Web Developer</p>
+		</header>
+
+		<section id="hero">
+			<img src="path/to/your/image.jpg" alt="Hero Image" />
 			<p>
-				Your catchy tagline or a brief description of what your website
-				is about.
+				Welcome to my portfolio! I'm Your Name, a dedicated web
+				developer with a strong passion for creating innovative and
+				user-friendly web applications. Explore my skills and projects
+				below, and let's build something amazing together.
 			</p>
-			<div class="image-container">
-				<img
-					class="hero-img"
-					src="/images/ekko03.jpg"
-					alt="James Prince smiling"
-				/>
-			</div>
-		</div>
-		<!-- Hero section -->
+			<a href="#contact" class="cta-button">Get In Touch</a>
+		</section>
 
-		<!-- About me section -->
-		<div class="section" id="about">
+		<section id="about">
 			<h2>About Me</h2>
 			<p>
-				Write a compelling description about yourself, your skills, and
-				your interests.
+				Hello! I'm Your Name, a web developer based in Lusaka, Zambia.
+				With a background in computer science and a love for coding, I
+				bring a unique blend of creativity and technical expertise to
+				every project. My journey in web development began with a
+				fascination for turning ideas into digital realities, and it has
+				been an exciting adventure ever since.
 			</p>
-		</div>
-		<!-- About me section -->
+		</section>
 
-		<!-- Services section -->
-		<div class="section" id="services">
+		<section id="skills">
+			<h2>Skills</h2>
+			<h3>Frontend Development</h3>
+			<ul>
+				<li>**HTML5:** Creating semantic and accessible web pages</li>
+				<li>
+					**CSS3:** Designing stylish and responsive user interfaces
+				</li>
+				<li>
+					**JavaScript:** Building interactive and dynamic web
+					applications
+				</li>
+				<li>
+					**React.js:** Crafting modern and efficient user interfaces
+				</li>
+			</ul>
+			<h3>Backend Development</h3>
+			<ul>
+				<li>
+					**Node.js:** Building scalable and efficient server-side
+					applications
+				</li>
+				<li>
+					**Express.js:** Creating robust and feature-rich web APIs
+				</li>
+				<li>**MongoDB:** Designing and managing NoSQL databases</li>
+			</ul>
+			<h3>Data Analysis</h3>
+			<p>
+				**Microsoft Excel:** Leveraging Excel for powerful data analysis
+				and visualization.
+			</p>
+		</section>
+
+		<section id="projects">
+			<h2>Projects</h2>
+			<div class="project">
+				<h3>Personal Portfolio Website</h3>
+				<p>
+					Designed and implemented my personal portfolio website to
+					showcase skills, projects, and connect with fellow
+					developers. Highlights: **Responsive Design**, **Interactive
+					UI**, **Smooth Navigation**.
+				</p>
+			</div>
+			<div class="project">
+				<h3>E-commerce Platform</h3>
+				<p>
+					Developed a full-stack e-commerce platform with features
+					such as user authentication, product management, and secure
+					transactions. Highlights: **User Authentication**, **Payment
+					Gateway Integration**, **Product Reviews**.
+				</p>
+			</div>
+			<div class="project">
+				<h3>Task Management App</h3>
+				<p>
+					Created a task management application to help users organize
+					their daily tasks efficiently. Highlights: **Real-time
+					Updates**, **Drag-and-Drop Functionality**, **Task
+					Prioritization**.
+				</p>
+			</div>
+			<div class="project">
+				<h3>Blog Platform</h3>
+				<p>
+					Designed and implemented a blog platform allowing users to
+					create, edit, and delete blog posts. Highlights: **Rich Text
+					Editor**, **Image Uploads**, **Commenting System**.
+				</p>
+			</div>
+			<div class="project">
+				<h3>Weather App</h3>
+				<p>
+					Developed a weather application that provides real-time
+					weather information based on user input. Highlights: **API
+					Integration**, **Dynamic Data Display**, **Location-based
+					Weather**.
+				</p>
+			</div>
+			<!-- Add more projects as needed -->
+		</section>
+
+		<section id="services">
 			<h2>Services</h2>
-			<p>
-				Highlight the services you offer with a brief description of
-				each.
-			</p>
-		</div>
-		<!-- Services section -->
+			<div class="service">
+				<h3>Web Development</h3>
+				<p>
+					From concept to implementation, I offer end-to-end web
+					development services. Whether you need a simple and elegant
+					website or a complex web application, I've got you covered.
+				</p>
+			</div>
+			<div class="service">
+				<h3>UI/UX Design</h3>
+				<p>
+					Creating visually appealing and user-friendly interfaces is
+					my expertise. I focus on delivering seamless and enjoyable
+					user experiences for your digital products.
+				</p>
+			</div>
+			<div class="service">
+				<h3>Data Analysis</h3>
+				<p>
+					Unlock the power of your data with my data analysis
+					services. I can help you make informed decisions and
+					discover valuable insights from your datasets using tools
+					like Microsoft Excel.
+				</p>
+			</div>
+		</section>
 
-		<!-- Projects section -->
-		<div class="section" id="projects">
-			<h2>My Projects</h2>
-			<p>
-				Showcase some of your notable projects with descriptions and
-				links.
-			</p>
-		</div>
-		<!-- Projects section -->
-
-		<!-- Testimonials section -->
-		<div class="section" id="testimonials">
-			<h2>Testimonials</h2>
-			<p>
-				Share feedback or testimonials from satisfied clients or
-				collaborators.
-			</p>
-		</div>
-		<!-- Testimonials section -->
-
-		<!-- Testimonials section -->
-		<div class="section" id="contact">
+		<section id="contact">
 			<h2>Contact Me</h2>
 			<p>
-				Provide contact information and a form for visitors to get in
-				touch with you.
+				Let's connect! Whether you have a project in mind, want to
+				collaborate, or just want to say hello, feel free to reach out.
 			</p>
-		</div>
-		<!-- Testimonials section -->
-		<!-- Your content goes here -->
+			<!-- You can embed a map here using a service like Google Maps -->
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required />
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required />
+
+				<input type="submit" value="Submit" />
+			</form>
+		</section>
+
+		<footer>
+			<p>&copy; 2023 Your Name. All rights reserved.</p>
+		</footer>
+
+		<script src="script.js"></script>
 	</body>
 </html>
